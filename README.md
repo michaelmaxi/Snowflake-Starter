@@ -18,4 +18,6 @@ Sequence - Create a unique incremental numbering system
 
 Tasks - Create objects to schedule SQL commands or Stored Procedures / Each Task can have 100 child tasks / Max Total 1000 child tasks
 
+Streams - Create objects to view & track DML changes INSERT / UPDATE / DELETE
+
 
