@@ -1,4 +1,5 @@
 --- TASKS an object used to schedule SQL command or a stored procedure
+--- TASK time limit of 60 minutes before termination as safeguard against non terminating tasks.
 
 USE ROLE ACCOUNTADMIN;
 USE WAREHOUSE COMPUTE_WH;
