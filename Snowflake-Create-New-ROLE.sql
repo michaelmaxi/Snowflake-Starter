@@ -1,3 +1,4 @@
+--- Snowflake uses RBAC (Role Based Access Control) as one of 2 Access Control methods
 --- USE ACCOUNTADMIN which is SYSADMIN + SECURITYADMIN
 USE ROLE ACCOUNTADMIN;
 
