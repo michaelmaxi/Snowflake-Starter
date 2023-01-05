@@ -10,7 +10,7 @@ Tables - Permanent / Tempary / Transient
 
 Views - Standard / Secure / Materialized
 
-UDF - User Defined Functions / Internal SQL & Java possible / External API
+UDF - User Defined Functions / Internal SQL & Java possible / Call External API
 
 Stored Procedure - Using Java to package SQL query's for multiple tasks or jobs and EXECUTE AS OWNER
 
@@ -21,4 +21,6 @@ Tasks - Create objects to schedule SQL commands or Stored Procedures / Each Task
 Streams - Create objects to view & track DML changes INSERT / UPDATE / DELETE
 
 FYI - Snowflake allows you to access your account data with command line using SnowSQL
+
+FYI - SnowPark API allow you to query your data with Python / Scala etc. 
 
