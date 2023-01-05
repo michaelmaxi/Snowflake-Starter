@@ -10,4 +10,6 @@ Tables - Permanent / Tempary / Transient
 
 Views - Standard / Secure / Materialized
 
+UDF - User Defined Functions / Internal SQL & Java possible / External API
+
 
