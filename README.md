@@ -16,6 +16,6 @@ Stored Procedure - Using Java to package SQL query's for multiple tasks or jobs 
 
 Sequence - Create a unique incremental numbering system
 
-Tasks - Create objects to schedule SQL commands or Stored Procedures / Can also create upto 100 child tasks
+Tasks - Create objects to schedule SQL commands or Stored Procedures / Each Task can have 100 child tasks / Max Total 1000 child tasks
 
 
