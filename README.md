@@ -12,4 +12,6 @@ Views - Standard / Secure / Materialized
 
 UDF - User Defined Functions / Internal SQL & Java possible / External API
 
+Stored Procedure - Using Java to package SQL query's for multiple tasks or jobs
+
 
