@@ -22,5 +22,5 @@ Streams - Create objects to view & track DML changes INSERT / UPDATE / DELETE
 
 FYI - Snowflake allows you to access your account data with command line using SnowSQL
 
-FYI - SnowPark API allow you to query your data with Python / Scala etc. 
+FYI - SnowPark API allow you to query your data with Python / Scala etc without taking your data outside of Snowflake. 
 
