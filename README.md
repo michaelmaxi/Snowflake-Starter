@@ -20,5 +20,5 @@ Tasks - Create objects to schedule SQL commands or Stored Procedures / Each Task
 
 Streams - Create objects to view & track DML changes INSERT / UPDATE / DELETE
 
-FYI - Allows you to connect with command line using SnowSQL
+FYI - Snowflake allows you to access your account data with command line using SnowSQL
 
