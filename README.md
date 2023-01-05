@@ -6,4 +6,8 @@ CONCEPTS
 
 Zero-Copy / SELECT from cache / Inport JSON as VARIANT column type / VIEWS & Materialized VIEWS / Time-Travel
 
+Tables - Permanent / Tempary / Transient 
+
+Views - Standard / Secure / Materialized
+
 
