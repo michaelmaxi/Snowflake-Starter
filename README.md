@@ -14,4 +14,6 @@ UDF - User Defined Functions / Internal SQL & Java possible / External API
 
 Stored Procedure - Using Java to package SQL query's for multiple tasks or jobs and EXECUTE AS OWNER
 
+Sequence - Create incremental numbering system
+
 
