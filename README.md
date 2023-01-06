@@ -25,3 +25,5 @@ FYI - Snowflake allows you to access your account data with command line using S
 FYI - SnowPark API allow you to query your data with Python / Scala etc without having to taking your data outside of Snowflake. 
 
 Roles - Setup RBAC Role Based Access Control
+
+MASKING Policy / Masking Column Data vs ROW LEVEL Policy where we can remove row data from query results
