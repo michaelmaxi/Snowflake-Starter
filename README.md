@@ -31,3 +31,5 @@ MASKING Policy / Masking Column Data vs ROW LEVEL Policy where we can remove row
 SECURE VIEWS - You can easily apply SECURE syntax to CREATE VIEW to hide the underlying tables, however beware that to secure the table some of the execution plan and query optimization is skipped.  Yes SECURE VIEWS & SECURE MATERIALIZED VIEWS are SLOWER and SECURE is discuraged unless absolutley required.
 
 WAREHOUSE Scaling CREATE / DROP / ALTER / AUTO_SUSPEND / AUTO_RESUME
+
+WAREHOUSE Notifications / Monitoring / Metering Credits / Detailed Costing 
