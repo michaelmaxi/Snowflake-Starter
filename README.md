@@ -38,3 +38,9 @@ WAREHOUSE T-Shirt Size vs Scaling Out / In - You can increase your warehouse T-s
 
 WAREHOUSE Scaling Policy - STANDARD will add a cluster immediately when a query is queued.  It will check every 1 minute the load and if load can be redistributed to another for 2 consecutive minutes then it will be marked for shut down / Scaling-In.
 WAREHOUSE Scaling Policy - ECONOMY is about conserving credits.  A warehouse will start with MIN_CLUSTER_COUNT.  Scaling-Out, when a query is queued the system will estimate if there is enough query load to keep a new CLUSTER busy for 6 minutes, so it delays starting a new cluster to ensure load is not tempary.  Scaling-In, every minute a check is made to see if load can be redistrubited to another cluster, after 6 consecutive minutes, CLUSTER will be marked for shutdown. 
+
+WAREHOUSE COST - MAX_CLUSTER_COUNT * WAREHOUSE T-SHIRT SIZE (CREDIT NO) / CREATE WAREHOUSE MY_COSTS MIN_CLUSTER_COUNT=1 MAX_CLUSTER_COUNT=3 WAREHOUSE_SIZE='MEDIUM';
+COST = 3 X 4 (MEDIUM CREDIT COST) = 12 CREDITS / HOUR @ MAX CLUSTER USAGE.  In practice Scaling Policy would Scale-In when required and you would be charge a reduced amount to Max.
+
+
+
