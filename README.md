@@ -27,3 +27,5 @@ FYI - SnowPark API allow you to query your data with Python / Scala etc without 
 Roles - Setup RBAC Role Based Access Control
 
 MASKING Policy / Masking Column Data vs ROW LEVEL Policy where we can remove row data from query results
+
+SECURE VIEWS - You can easily apply SECURE syntax to CREATE VIEW to hide the underlying tables, however beware that to secure the table some of the execution plan and query optimization is skipped.  Yes SECURE VIEWS & SECURE MATERIALIZED VIEWS are SLOWER and SECURE is discuraged unless absolutley required.
