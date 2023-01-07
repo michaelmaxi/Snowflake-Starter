@@ -49,3 +49,5 @@ QUERY PERFORMANCE UI (14 Days) - History Tab / Home->Activity->Query History(Que
 QUERY PERFORMANCE SQL (12 MONTHS) - eg. USE DATABASE SNOWFLAKE.ACCOUNT_USAGE / SELECT * FROM QUERY_HISTORY WHERE WAREHOUSE_SIZE IS NOT NULL LIMIT 100; (NOTE:Upto 45min delay on any recent querys)
 
 QUERY PERFORMANCE - ORDER OF EXECUTION -> ROWS(FROM+JOIN+WHERE) -> GROUPS(GROUP BY+HAVING) -> RESULT(SELECT+DISTINCT+ORDER BY+LIMIT) Hence why you should prioritize the WHERE clause as it is executes+limits data in next stages.  LIMIT is only applied at the end and can significatnly assist if ORDER BY and DISTINCT are called also.
+
+CLUSTERING into micro partitions happens when copy into new table / AUTO CLUSTERING allows you to assign columns so that the micro partitions are holding data in the most effiecient retrieval config.  Auto Clustering will happen in the background but comes at a cost.  Large tables which are querried regular would benifit more than tables which change with insert often due to the costs involved.  The costs could outway the benifits
