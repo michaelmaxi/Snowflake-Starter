@@ -53,3 +53,5 @@ QUERY PERFORMANCE - ORDER OF EXECUTION -> ROWS(FROM+JOIN+WHERE) -> GROUPS(GROUP 
 CLUSTERING into micro partitions happens when copy into new table / AUTO CLUSTERING allows you to assign columns so that the micro partitions are holding data in the most effiecient retrieval config.  Auto Clustering will happen in the background but comes at a cost.  Large tables which are querried regular would benifit more than tables which change with insert often due to the costs involved.  The costs could outway the benifits
 
 DATA LOADING STAGES - User Stage - given to all users by default (add files with PUT) / Table Stage (Only used for given TABLE) / Named Stage (You can create & share)
+
+DATA LAODING STAGES - Via PUT FILE://c:\\FOLDER\\MY_DATA.CSV @MY_INITAL_STAGE;
