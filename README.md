@@ -44,4 +44,6 @@ COST = 3 X 4 (MEDIUM CREDIT COST) = 12 CREDITS / HOUR @ MAX CLUSTER USAGE.  In p
 
 WAREHOUSE CONCURRENCY - DEFAULT 8 QUERY / CREATE WAREHOUSE MY_WAREHOUSE MAX_CONCURRENCY_LEVEL = 99; Specifies max SQL query that can be run before being queued.  Additional settings STATEMENT_QUEUED_TIMEOUT_IN_SECONDS=60; Queued until then aborted / STATEMENT_TIMEOUT_IN_SECONDS=600; SQL run time before aborted.
 
-QUERY PERFORMANCE(14 Days) History Tab / Home->Activity->Query History(QueryDetails) / Home->Activity->Query History(QueryProfile)
+QUERY PERFORMANCE UI (14 Days) - History Tab / Home->Activity->Query History(QueryDetails) / Home->Activity->Query History(QueryProfile)
+
+QUERY PERFORMANCE SQL (12 MONTHS) - eg. USE DATABASE SNOWFLAKE.ACCOUNT_USAGE / SELECT * FROM QUERY_HISTORY WHERE WAREHOUSE_SIZE IS NOT NULL LIMIT 100;
