@@ -44,4 +44,4 @@ COST = 3 X 4 (MEDIUM CREDIT COST) = 12 CREDITS / HOUR @ MAX CLUSTER USAGE.  In p
 
 WAREHOUSE CONCURRENCY - DEFAULT 8 QUERY / CREATE WAREHOUSE MY_WAREHOUSE MAX_CONCURRENCY_LEVEL = 99; Specifies max SQL query that can be run before being queued.  Additional settings STATEMENT_QUEUED_TIMEOUT_IN_SECONDS=60; Queued until then aborted / STATEMENT_TIMEOUT_IN_SECONDS=600; SQL run time before aborted.
 
-
+QUERY PERFORMANCE - 3 PLACES - Home -> Activity -> Query History / History Tab / Query Profile
