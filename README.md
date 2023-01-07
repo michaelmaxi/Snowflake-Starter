@@ -47,3 +47,5 @@ WAREHOUSE CONCURRENCY - DEFAULT 8 QUERY / CREATE WAREHOUSE MY_WAREHOUSE MAX_CONC
 QUERY PERFORMANCE UI (14 Days) - History Tab / Home->Activity->Query History(QueryDetails) / Home->Activity->Query History(QueryProfile)
 
 QUERY PERFORMANCE SQL (12 MONTHS) - eg. USE DATABASE SNOWFLAKE.ACCOUNT_USAGE / SELECT * FROM QUERY_HISTORY WHERE WAREHOUSE_SIZE IS NOT NULL LIMIT 100; (NOTE:Upto 45min delay on any recent querys)
+
+QUERY PERFORMANCE - ORDER OF EXECUTION -> ROWS(FRON+JOIN+WHERE) -> GROUPS(GROUP BY+HAVING) -> RESULT(SELECT+DISTINCT+ORDER BY+LIMIT) Hence why you should prioritize the WHERE clause as it is executes+limits data in next stages.  LIMIT is only applied at the end and limits result user sees
