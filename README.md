@@ -55,3 +55,6 @@ CLUSTERING into micro partitions happens when copy into new table / AUTO CLUSTER
 DATA LOADING STAGES - User Stage - given to all users by default (add files with PUT) / Table Stage (Only used for given TABLE) / Named Stage (You can create & share)
 
 DATA LAODING STAGES - Via PUT & PowerShell 'PS C:\Users\Admin>snowsql' / USE ROLE SYSADMIN; / USE DATABASE FILMS_DB / USE SCHEMA FILMS_SCHEMA; / PUT FILE://c:\\FOLDER\\MY_DATA.CSV @~ auto_compress=false;
+
+DATA LOADING STAGES - For Programatic Uploads 'COPY INTO <table>' when performed by user it is called BULK LOADING
+  
