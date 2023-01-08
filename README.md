@@ -32,6 +32,8 @@ SECURE VIEWS - You can easily apply SECURE syntax to CREATE VIEW to hide the und
 
 WAREHOUSE Scaling CREATE / DROP / ALTER / AUTO_SUSPEND / AUTO_RESUME
 
+SNOWPIPE CONTINUOUS DATA INGESTION SERVICE - Loads data at near real time from stages
+
 WAREHOUSE Notifications / Monitoring / Metering Credits / Detailed Costing 
 
 WAREHOUSE T-Shirt Size vs Scaling Out / In - You can increase your warehouse T-shirt size at any time.  Be aware decreasing T-shirt size will clear the cache and may severly impact performance.  Scaling out refers to "Scaling Policy".  You have the choice of STANDARD or ECONOMY.  Both will start with MIN_CLUSTER_COUNT.  
