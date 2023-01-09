@@ -1,5 +1,4 @@
-# Snowflake-Starter
-Some Snowflake DB fun
+# Snowflake Starter FUN
 
 Snowflake Certification [CLICK for Certificate](https://github.com/michaelmaxi/Snowflake-Starter/blob/main/Snowflake-Certificate.jpg)
 
