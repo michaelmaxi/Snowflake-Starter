@@ -61,3 +61,5 @@ DATA LAODING STAGES - Via PUT & PowerShell 'PS C:\Users\Admin>snowsql' / USE ROL
 DATA LOADING STAGES - For Programatic Uploads 'COPY INTO <table>' when performed by user it is called BULK LOADING. Load history stored in metadata for 64 days
 
 DATA RETENTION / TIME-TRAVEL DEFAULT DATA_RETENTION_TIME_IN_DAYS=1 (0 TURNS OFF TIME-TRAVEL) / STANDARD MAX 1 DAYS / ENTERPRISE MAX 90 DAYS (FAIL-SAVE is 7 days Availble by contacting support)
+
+DATA CLONE - You can CLONE DATABASES, SCHEMAS, TABLES and more.  When you CLONE you CLONE the object by default without GRANTS.  If you need all permissions then include the GRANT syntax in CLONE.  You can also CLONE and object from a point in time using TIME TRAVEL.  *NOTE WHEN YOU CLONE A DATABASE you clone all the OBJECTS in it, TABLES, SCHEMAS etc.    
