@@ -1,7 +1,7 @@
 # Snowflake-Starter
 Some Snowflake DB fun
 
-Snowflake Certification [CLICK for Certificate](https://www.udemy.com/certificate/UC-12b3ad70-eb99-4f22-9df0-bbae8dfec26b/){:target="_blank" rel="noopener"}
+Snowflake Certification [CLICK for Certificate](https://github.com/michaelmaxi/Snowflake-Starter/blob/main/Snowflake-Certificate.jpg)
 
 CONCEPTS
 ------------
